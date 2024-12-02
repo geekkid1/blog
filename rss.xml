@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://geekkid1.github.io/">
+  <title>Geekkid1&#39;s Test Blog</title>
+  <subtitle>This is a test descripion</subtitle>
+  <link href="https://geekkid1.github.io/rss.xml" rel="self"/>
+  <updated>2024-12-02T00:00:00Z</updated>
+  <id>https://geekkid1.github.io/</id>
+  <author>
+    <name>Geekkid1</name>
+  </author>
+  <entry>
+    <title>Change</title>
+    <link href="https://geekkid1.github.io/posts/2024-12-02-Change.html"/>
+    <updated>2024-12-02T00:00:00Z</updated>
+    <id>https://geekkid1.github.io/posts/2024-12-02-Change.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://geekkid1.github.io/images/">]]>On Change and where I am in life.</content>
+  </entry>
+  <entry>
+    <title>Introduction</title>
+    <link href="https://geekkid1.github.io/posts/2024-12-01-Intro.html"/>
+    <updated>2024-12-01T00:00:00Z</updated>
+    <id>https://geekkid1.github.io/posts/2024-12-01-Intro.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://geekkid1.github.io/images/">]]>This is the first post on a blog I&#39;m trying out.</content>
+  </entry>
+</feed>
