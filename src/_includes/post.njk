@@ -46,11 +46,11 @@ title: "Geekkid1 Posts: {{ title }}"
           <!--This will take you to the next/previous blog entries if they exist-->
           <nav id="nextprev">
           {% if nextPost.url %}
-          <a class="next" href="{{ nextPost.url }}">« Next</a> |
+          <a class="next" href="/blog{{ nextPost.url }}">« Next</a> |
           {% endif %}
           <a href="../archives.html">Archives</a>
           {% if prevPost.url %}
-          | <a class="previous" href="{{ prevPost.url }}">Previous »</a>
+          | <a class="previous" href="/blog{{ prevPost.url }}">Previous »</a>
           {% endif %}
           </nav>
         </article>
