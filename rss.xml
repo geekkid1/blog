@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://geekkid1.github.io/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://geekkid1.github.io/blog/">
   <title>Geekkid1&#39;s Test Blog</title>
   <subtitle>This is a test descripion</subtitle>
-  <link href="https://geekkid1.github.io/rss.xml" rel="self"/>
+  <link href="https://geekkid1.github.io/blog/rss.xml" rel="self"/>
   <updated>2024-12-03T00:00:00Z</updated>
-  <id>https://geekkid1.github.io/</id>
+  <id>https://geekkid1.github.io/blog/</id>
   <author>
     <name>Geekkid1</name>
   </author>
