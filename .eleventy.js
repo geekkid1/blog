@@ -4,8 +4,9 @@ const { DateTime } = require('luxon');
 // Tells Eleventy to look for the RSS plugin
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+
 // This is all the stuff that Eleventy is going to process when it exports your site
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
   // Edit these to include your images, CSS, and other folders and files that you want to copy over to your public folder.
   eleventyConfig.addPassthroughCopy("./src/styles");
   eleventyConfig.addWatchTarget("./src/styles/");
@@ -14,6 +15,9 @@ module.exports = function (eleventyConfig) {
 
   // Load the RSS plugin
   eleventyConfig.addPlugin(pluginRss);
+
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // Adds Next & Previous links to the bottom of our blog posts
   eleventyConfig.addCollection("posts", function(collection) {
@@ -47,5 +51,6 @@ module.exports = function (eleventyConfig) {
         input: "src",
         output: "public",
       },
+      pathPrefix: "/blog/",
     };
   };
